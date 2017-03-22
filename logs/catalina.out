@@ -1,0 +1,2481 @@
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.76
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 9 2017 13:49:01 UTC
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.76.0
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            2.6.32-573.el6.x86_64
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.79.x86_64/jre
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_79-mockbuild_2015_05_27_09_36-b00
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /root/apache-tomcat-7.0.76
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /root/apache-tomcat-7.0.76
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/root/apache-tomcat-7.0.76/conf/logging.properties
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/root/apache-tomcat-7.0.76/endorsed
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/root/apache-tomcat-7.0.76
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/root/apache-tomcat-7.0.76
+Mar 21, 2017 10:46:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/root/apache-tomcat-7.0.76/temp
+Mar 21, 2017 10:46:13 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mar 21, 2017 10:46:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Mar 21, 2017 10:46:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 21, 2017 10:46:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3713 ms
+Mar 21, 2017 10:46:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 21, 2017 10:46:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.76
+Mar 21, 2017 10:46:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/apache-tomcat-7.0.76/webapps/manager
+Mar 21, 2017 10:46:17 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [117] milliseconds.
+Mar 21, 2017 10:46:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/apache-tomcat-7.0.76/webapps/manager has finished in 2,658 ms
+Mar 21, 2017 10:46:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/apache-tomcat-7.0.76/webapps/docs
+Mar 21, 2017 10:46:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/apache-tomcat-7.0.76/webapps/docs has finished in 193 ms
+Mar 21, 2017 10:46:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/apache-tomcat-7.0.76/webapps/host-manager
+Mar 21, 2017 10:46:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/apache-tomcat-7.0.76/webapps/host-manager has finished in 284 ms
+Mar 21, 2017 10:46:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/apache-tomcat-7.0.76/webapps/examples
+Mar 21, 2017 10:46:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/apache-tomcat-7.0.76/webapps/examples has finished in 1,899 ms
+Mar 21, 2017 10:46:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/apache-tomcat-7.0.76/webapps/ROOT
+Mar 21, 2017 10:46:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/apache-tomcat-7.0.76/webapps/ROOT has finished in 430 ms
+Mar 21, 2017 10:46:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Mar 21, 2017 10:46:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 21, 2017 10:46:20 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5879 ms
+Mar 21, 2017 10:57:30 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /root/apache-tomcat-7.0.76/webapps/jenkins.war
+Mar 21, 2017 10:57:35 PM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Mar 21, 2017 10:57:53 PM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+Mar 21, 2017 10:57:53 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jenkins home directory: /root/.jenkins found at: $user.home/.jenkins
+Mar 21, 2017 10:57:57 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /root/apache-tomcat-7.0.76/webapps/jenkins.war has finished in 26,782 ms
+Mar 21, 2017 10:57:59 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 10:57:59 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 10:58:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 10:58:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 10:58:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 10:58:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 10:58:19 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Mar 21, 2017 10:58:22 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 42187
+Mar 21, 2017 10:58:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 10:58:26 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@446148aa: display name [Root WebApplicationContext]; startup date [Tue Mar 21 22:58:26 CDT 2017]; root of context hierarchy
+Mar 21, 2017 10:58:26 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@446148aa]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3788086e
+Mar 21, 2017 10:58:27 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3788086e: defining beans [authenticationManager]; root of factory hierarchy
+Mar 21, 2017 10:58:32 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@12adad5c: display name [Root WebApplicationContext]; startup date [Tue Mar 21 22:58:32 CDT 2017]; root of context hierarchy
+Mar 21, 2017 10:58:32 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@12adad5c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6b72523a
+Mar 21, 2017 10:58:32 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6b72523a: defining beans [filter,legacy]; root of factory hierarchy
+Mar 21, 2017 10:58:33 PM jenkins.install.SetupWizard init
+INFO: 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+d2efbb1bff0a4c928a76a3754d72e158
+
+This may also be found at: /root/.jenkins/secrets/initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Mar 21, 2017 10:58:44 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Mar 21, 2017 10:58:45 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+Mar 21, 2017 10:58:47 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Mar 21, 2017 10:58:47 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Mar 21, 2017 10:58:47 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tools.JDKInstaller
+Mar 21, 2017 10:58:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 27,877 ms
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of bouncycastle-api for plugin cloudbees-folder
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of junit for plugin antisamy-markup-formatter
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of structs for plugin junit
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of bouncycastle API Plugin on behalf of admin
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin structs already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin junit already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin antisamy-markup-formatter already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pam-auth for plugin build-timeout
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of junit for plugin pam-auth already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pam-auth already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of windows-slaves for plugin build-timeout
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin windows-slaves already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of ldap for plugin build-timeout
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of junit for plugin ldap already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of mailer for plugin ldap
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of display-url-api for plugin mailer
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of junit for plugin display-url-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin display-url-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin mailer already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin ldap already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of matrix-auth for plugin build-timeout
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of icon-shim for plugin matrix-auth
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin icon-shim already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin matrix-auth already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of token-macro for plugin build-timeout
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin token-macro already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of matrix-project for plugin build-timeout
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of script-security for plugin matrix-project
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin script-security already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of junit for plugin matrix-project already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin matrix-project already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of external-monitor-job for plugin build-timeout
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin external-monitor-job already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of junit for plugin build-timeout already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of antisamy-markup-formatter for plugin build-timeout already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of mailer for plugin build-timeout already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin build-timeout already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of plain-credentials for plugin credentials-binding
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of credentials for plugin plain-credentials
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin credentials already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin plain-credentials already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-step-api for plugin credentials-binding
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of structs for plugin workflow-step-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin workflow-step-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of credentials for plugin credentials-binding already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of structs for plugin credentials-binding already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin credentials-binding already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin timestamper already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of resource-disposer for plugin ws-cleanup
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of junit for plugin resource-disposer already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin resource-disposer already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of matrix-project for plugin ws-cleanup already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin ws-cleanup already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-basic-steps for plugin ws-cleanup
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin workflow-basic-steps already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-api for plugin workflow-basic-steps
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of scm-api for plugin workflow-api
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin scm-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin workflow-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin workflow-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of structs for plugin workflow-basic-steps already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of mailer for plugin workflow-basic-steps already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin workflow-basic-steps already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of structs for plugin ant already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin ant already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of structs for plugin gradle already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin gradle already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-cps-global-lib for plugin workflow-aggregator
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-scm-step for plugin workflow-cps-global-lib
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin workflow-scm-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin workflow-scm-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of git-client for plugin workflow-cps-global-lib
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of ssh-credentials for plugin git-client
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of credentials for plugin ssh-credentials already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin ssh-credentials already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of structs for plugin git-client already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin git-client already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of scm-api for plugin workflow-cps-global-lib already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-cps for plugin workflow-cps-global-lib
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-scm-step for plugin workflow-cps already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of script-security for plugin workflow-cps already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of scm-api for plugin workflow-cps already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin workflow-cps already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin workflow-cps already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of jquery-detached for plugin workflow-cps
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin jquery-detached already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-support for plugin workflow-cps
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of script-security for plugin workflow-support already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin workflow-support already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin workflow-support already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin workflow-support already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of structs for plugin workflow-cps already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin workflow-cps already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of ace-editor for plugin workflow-cps
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin ace-editor already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of git-server for plugin workflow-cps-global-lib
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of git-client for plugin git-server already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin git-server already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of cloudbees-folder for plugin workflow-cps-global-lib already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin workflow-cps-global-lib already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-scm-step for plugin workflow-aggregator already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-milestone-step for plugin workflow-aggregator
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin pipeline-milestone-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin pipeline-milestone-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-milestone-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-build-step for plugin workflow-aggregator
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin pipeline-build-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin pipeline-build-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-support for plugin pipeline-build-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-build-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin workflow-aggregator already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-stage-view for plugin workflow-aggregator
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-rest-api for plugin pipeline-stage-view
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-graph-analysis for plugin pipeline-rest-api
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-cps for plugin pipeline-graph-analysis already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-stage-step for plugin pipeline-graph-analysis
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin pipeline-stage-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin pipeline-stage-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-stage-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin pipeline-graph-analysis already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin pipeline-graph-analysis already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-input-step for plugin pipeline-graph-analysis
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin pipeline-input-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin pipeline-input-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-support for plugin pipeline-input-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-input-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-job for plugin pipeline-graph-analysis
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin workflow-job already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-support for plugin workflow-job already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin workflow-job already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-support for plugin pipeline-graph-analysis already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-graph-analysis already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of pipeline-stage-step for plugin pipeline-rest-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin pipeline-rest-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin pipeline-rest-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-job for plugin pipeline-rest-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of pipeline-input-step for plugin pipeline-rest-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-support for plugin pipeline-rest-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-rest-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of handlebars for plugin pipeline-stage-view
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin handlebars already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of momentjs for plugin pipeline-stage-view
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin momentjs already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-job for plugin pipeline-stage-view already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of jquery-detached for plugin pipeline-stage-view already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-stage-view already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin workflow-aggregator already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of pipeline-input-step for plugin workflow-aggregator already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-job for plugin workflow-aggregator already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-durable-task-step for plugin workflow-aggregator
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of script-security for plugin workflow-durable-task-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin workflow-durable-task-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin workflow-durable-task-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of durable-task for plugin workflow-durable-task-step
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin durable-task already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-support for plugin workflow-durable-task-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin workflow-durable-task-step already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-model-definition for plugin workflow-aggregator
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-cps-global-lib for plugin pipeline-model-definition already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-scm-step for plugin pipeline-model-definition already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of credentials-binding for plugin pipeline-model-definition already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of scm-api for plugin pipeline-model-definition already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin pipeline-model-definition already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-model-api for plugin pipeline-model-definition
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin pipeline-model-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of structs for plugin pipeline-model-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-model-api already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-durable-task-step for plugin pipeline-model-definition already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-basic-steps for plugin pipeline-model-definition already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-stage-tags-metadata for plugin pipeline-model-definition
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-stage-tags-metadata already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of docker-workflow for plugin pipeline-model-definition
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-cps for plugin docker-workflow already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of docker-commons for plugin docker-workflow
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of authentication-tokens for plugin docker-commons
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of credentials for plugin authentication-tokens already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin authentication-tokens already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of credentials for plugin docker-commons already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of icon-shim for plugin docker-commons already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin docker-commons already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-durable-task-step for plugin docker-workflow already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin docker-workflow already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-model-extensions for plugin pipeline-model-definition
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-cps for plugin pipeline-model-extensions already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of pipeline-model-api for plugin pipeline-model-extensions already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-job for plugin pipeline-model-extensions already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-model-extensions already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-cps for plugin pipeline-model-definition already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of pipeline-stage-step for plugin pipeline-model-definition already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of workflow-multibranch for plugin pipeline-model-definition
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-scm-step for plugin workflow-multibranch already added, skipping
+Mar 21, 2017 11:02:25 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of script-security for plugin workflow-multibranch already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of scm-api for plugin workflow-multibranch already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-cps for plugin workflow-multibranch already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin workflow-multibranch already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-api for plugin workflow-multibranch already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of branch-api for plugin workflow-multibranch
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of scm-api for plugin branch-api already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of structs for plugin branch-api already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of cloudbees-folder for plugin branch-api already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin branch-api already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-job for plugin workflow-multibranch already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of cloudbees-folder for plugin workflow-multibranch already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin workflow-multibranch already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-support for plugin pipeline-model-definition already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-model-definition already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-basic-steps for plugin workflow-aggregator already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-cps for plugin workflow-aggregator already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of pipeline-stage-step for plugin workflow-aggregator already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-support for plugin workflow-aggregator already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-multibranch for plugin workflow-aggregator already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin workflow-aggregator already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-cps-global-lib for plugin github-organization-folder already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-scm-step for plugin github-organization-folder already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of github-branch-source for plugin github-organization-folder
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of github-api for plugin github-branch-source
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin github-api already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of scm-api for plugin github-branch-source already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of git for plugin github-branch-source
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of ssh-credentials for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-scm-step for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of git-client for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of scm-api for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of matrix-project for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of credentials for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of mailer for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of credentials for plugin github-branch-source already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of display-url-api for plugin github-branch-source already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of github for plugin github-branch-source
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of github-api for plugin github already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of token-macro for plugin github already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of scm-api for plugin github already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of plain-credentials for plugin github already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of git for plugin github already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of credentials for plugin github already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin github already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin github-branch-source already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of pipeline-github-lib for plugin github-organization-folder
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-cps-global-lib for plugin pipeline-github-lib already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of git for plugin pipeline-github-lib already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-github-lib already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of scm-api for plugin github-organization-folder already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-cps for plugin github-organization-folder already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-step-api for plugin github-organization-folder already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of branch-api for plugin github-organization-folder already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-job for plugin github-organization-folder already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of github for plugin github-organization-folder already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-multibranch for plugin github-organization-folder already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of cloudbees-folder for plugin github-organization-folder already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin github-organization-folder already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of pipeline-rest-api for plugin pipeline-stage-view already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of handlebars for plugin pipeline-stage-view already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of momentjs for plugin pipeline-stage-view already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-job for plugin pipeline-stage-view already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of jquery-detached for plugin pipeline-stage-view already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pipeline-stage-view already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of ssh-credentials for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-scm-step for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of git-client for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of scm-api for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of matrix-project for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of credentials for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of mailer for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin git already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of ssh-credentials for plugin subversion already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of workflow-scm-step for plugin subversion already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Adding dependent install of mapdb-api for plugin subversion
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of junit for plugin mapdb-api already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin mapdb-api already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of scm-api for plugin subversion already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of credentials for plugin subversion already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin subversion already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of ssh-credentials for plugin ssh-slaves already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of credentials for plugin ssh-slaves already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin ssh-slaves already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of icon-shim for plugin matrix-auth already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin matrix-auth already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of junit for plugin pam-auth already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin pam-auth already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of junit for plugin ldap already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of mailer for plugin ldap already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin ldap already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of token-macro for plugin email-ext already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of matrix-project for plugin email-ext already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of junit for plugin email-ext already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of mailer for plugin email-ext already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin email-ext already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of display-url-api for plugin mailer already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateSite$Plugin deploy
+INFO: Dependent install of bouncycastle-api for plugin mailer already added, skipping
+Mar 21, 2017 11:02:26 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading bouncycastle API Plugin
+Mar 21, 2017 11:02:28 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/bouncycastle-api.jpi
+Mar 21, 2017 11:02:29 PM jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
+INFO: Initializing Bouncy Castle security provider.
+Mar 21, 2017 11:02:31 PM jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
+INFO: Bouncy Castle security provider initialized.
+Mar 21, 2017 11:02:32 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:32 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:32 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:32 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:32 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:32 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:32 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:32 PM hudson.PluginManager dynamicLoad
+INFO: Plugin bouncycastle-api:2.16.0 dynamically installed
+Mar 21, 2017 11:02:32 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: bouncycastle API Plugin
+Mar 21, 2017 11:02:32 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Folders Plugin on behalf of admin
+Mar 21, 2017 11:02:33 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Folders Plugin
+Mar 21, 2017 11:02:33 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/cloudbees-folder.jpi
+Mar 21, 2017 11:02:34 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider$FolderCredentialsProperty$DescriptorImpl; skipping
+Mar 21, 2017 11:02:34 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider$FolderCredentialsProperty$DescriptorImpl; skipping
+Mar 21, 2017 11:02:34 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider$FolderCredentialsProperty$DescriptorImpl; skipping
+Mar 21, 2017 11:02:34 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider$FolderCredentialsProperty$DescriptorImpl; skipping
+Mar 21, 2017 11:02:34 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider$FolderCredentialsProperty$DescriptorImpl; skipping
+Mar 21, 2017 11:02:34 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider$FolderCredentialsProperty$DescriptorImpl; skipping
+Mar 21, 2017 11:02:34 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:34 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:34 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:34 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:34 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:34 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:34 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:34 PM hudson.PluginManager dynamicLoad
+INFO: Plugin cloudbees-folder:6.0.3 dynamically installed
+Mar 21, 2017 11:02:34 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Folders Plugin
+Mar 21, 2017 11:02:34 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Structs Plugin on behalf of admin
+Mar 21, 2017 11:02:34 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Structs Plugin
+Mar 21, 2017 11:02:35 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/structs.jpi
+Mar 21, 2017 11:02:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:35 PM hudson.PluginManager dynamicLoad
+INFO: Plugin structs:1.6 dynamically installed
+Mar 21, 2017 11:02:35 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Structs Plugin
+Mar 21, 2017 11:02:35 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of JUnit Plugin on behalf of admin
+Mar 21, 2017 11:02:36 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading JUnit Plugin
+Mar 21, 2017 11:02:37 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/junit.jpi
+Mar 21, 2017 11:02:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:37 PM hudson.PluginManager dynamicLoad
+INFO: Plugin junit:1.20 dynamically installed
+Mar 21, 2017 11:02:37 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: JUnit Plugin
+Mar 21, 2017 11:02:37 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of OWASP Markup Formatter Plugin on behalf of admin
+Mar 21, 2017 11:02:38 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading OWASP Markup Formatter Plugin
+Mar 21, 2017 11:02:38 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/antisamy-markup-formatter.jpi
+Mar 21, 2017 11:02:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:39 PM hudson.PluginManager dynamicLoad
+INFO: Plugin antisamy-markup-formatter:1.5 dynamically installed
+Mar 21, 2017 11:02:39 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: OWASP Markup Formatter Plugin
+Mar 21, 2017 11:02:39 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of PAM Authentication plugin on behalf of admin
+Mar 21, 2017 11:02:39 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading PAM Authentication plugin
+Mar 21, 2017 11:02:40 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pam-auth.jpi
+Mar 21, 2017 11:02:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:40 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pam-auth:1.3 dynamically installed
+Mar 21, 2017 11:02:40 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: PAM Authentication plugin
+Mar 21, 2017 11:02:40 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Windows Slaves Plugin on behalf of admin
+Mar 21, 2017 11:02:40 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Windows Slaves Plugin
+Mar 21, 2017 11:02:43 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/windows-slaves.jpi
+Mar 21, 2017 11:02:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:44 PM hudson.PluginManager dynamicLoad
+INFO: Plugin windows-slaves:1.3.1 dynamically installed
+Mar 21, 2017 11:02:44 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Windows Slaves Plugin
+Mar 21, 2017 11:02:44 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Display URL API on behalf of admin
+Mar 21, 2017 11:02:47 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Display URL API
+Mar 21, 2017 11:02:47 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/display-url-api.jpi
+Mar 21, 2017 11:02:47 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:47 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:47 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:47 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:47 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:47 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:47 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:47 PM hudson.PluginManager dynamicLoad
+INFO: Plugin display-url-api:1.1.1 dynamically installed
+Mar 21, 2017 11:02:47 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Display URL API
+Mar 21, 2017 11:02:47 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Mailer Plugin on behalf of admin
+Mar 21, 2017 11:02:48 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Mailer Plugin
+Mar 21, 2017 11:02:48 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/mailer.jpi
+Mar 21, 2017 11:02:48 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:48 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:48 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:48 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:48 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:48 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:48 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:48 PM hudson.PluginManager dynamicLoad
+INFO: Plugin mailer:1.20 dynamically installed
+Mar 21, 2017 11:02:48 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Mailer Plugin
+Mar 21, 2017 11:02:48 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of LDAP Plugin on behalf of admin
+Mar 21, 2017 11:02:49 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading LDAP Plugin
+Mar 21, 2017 11:02:49 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/ldap.jpi
+Mar 21, 2017 11:02:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:49 PM hudson.PluginManager dynamicLoad
+INFO: Plugin ldap:1.14 dynamically installed
+Mar 21, 2017 11:02:49 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: LDAP Plugin
+Mar 21, 2017 11:02:49 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Icon Shim Plugin on behalf of admin
+Mar 21, 2017 11:02:50 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Icon Shim Plugin
+Mar 21, 2017 11:02:50 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/icon-shim.jpi
+Mar 21, 2017 11:02:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:50 PM hudson.PluginManager dynamicLoad
+INFO: Plugin icon-shim:2.0.3 dynamically installed
+Mar 21, 2017 11:02:50 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Icon Shim Plugin
+Mar 21, 2017 11:02:50 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Matrix Authorization Strategy Plugin on behalf of admin
+Mar 21, 2017 11:02:50 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Matrix Authorization Strategy Plugin
+Mar 21, 2017 11:02:51 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/matrix-auth.jpi
+Mar 21, 2017 11:02:51 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:51 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:51 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:51 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:51 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:51 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:51 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:51 PM hudson.PluginManager dynamicLoad
+INFO: Plugin matrix-auth:1.4 dynamically installed
+Mar 21, 2017 11:02:51 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Matrix Authorization Strategy Plugin
+Mar 21, 2017 11:02:51 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Token Macro Plugin on behalf of admin
+Mar 21, 2017 11:02:51 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Token Macro Plugin
+Mar 21, 2017 11:02:52 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/token-macro.jpi
+Mar 21, 2017 11:02:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:53 PM hudson.PluginManager dynamicLoad
+INFO: Plugin token-macro:2.0 dynamically installed
+Mar 21, 2017 11:02:53 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Token Macro Plugin
+Mar 21, 2017 11:02:53 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Script Security Plugin on behalf of admin
+Mar 21, 2017 11:02:54 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Script Security Plugin
+Mar 21, 2017 11:02:54 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/script-security.jpi
+Mar 21, 2017 11:02:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:55 PM hudson.PluginManager dynamicLoad
+INFO: Plugin script-security:1.27 dynamically installed
+Mar 21, 2017 11:02:55 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Script Security Plugin
+Mar 21, 2017 11:02:55 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Matrix Project Plugin on behalf of admin
+Mar 21, 2017 11:02:55 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Matrix Project Plugin
+Mar 21, 2017 11:02:55 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/matrix-project.jpi
+Mar 21, 2017 11:02:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:56 PM hudson.PluginManager dynamicLoad
+INFO: Plugin matrix-project:1.8 dynamically installed
+Mar 21, 2017 11:02:56 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Matrix Project Plugin
+Mar 21, 2017 11:02:56 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of External Monitor Job Type Plugin on behalf of admin
+Mar 21, 2017 11:02:56 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading External Monitor Job Type Plugin
+Mar 21, 2017 11:02:56 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/external-monitor-job.jpi
+Mar 21, 2017 11:02:57 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:57 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:57 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:57 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:57 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:57 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:57 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:57 PM hudson.PluginManager dynamicLoad
+INFO: Plugin external-monitor-job:1.7 dynamically installed
+Mar 21, 2017 11:02:57 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: External Monitor Job Type Plugin
+Mar 21, 2017 11:02:57 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of build timeout plugin on behalf of admin
+Mar 21, 2017 11:02:57 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading build timeout plugin
+Mar 21, 2017 11:02:57 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/build-timeout.jpi
+Mar 21, 2017 11:02:57 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Mar 21, 2017 11:02:57 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Mar 21, 2017 11:02:57 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Mar 21, 2017 11:02:57 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Mar 21, 2017 11:02:57 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Mar 21, 2017 11:02:58 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Mar 21, 2017 11:02:58 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:02:58 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:02:58 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:02:58 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:02:58 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:02:58 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:02:58 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:02:58 PM hudson.PluginManager dynamicLoad
+INFO: Plugin build-timeout:1.18 dynamically installed
+Mar 21, 2017 11:02:58 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: build timeout plugin
+Mar 21, 2017 11:02:58 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Credentials Plugin on behalf of admin
+Mar 21, 2017 11:02:58 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Credentials Plugin
+Mar 21, 2017 11:02:59 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/credentials.jpi
+Mar 21, 2017 11:03:01 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:01 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:01 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:01 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:01 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:01 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:01 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:01 PM hudson.ClassicPluginStrategy updateDependency
+INFO: Updated dependency of cloudbees-folder
+Mar 21, 2017 11:03:01 PM hudson.PluginManager dynamicLoad
+INFO: Plugin credentials:2.1.13 dynamically installed
+Mar 21, 2017 11:03:01 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Credentials Plugin
+Mar 21, 2017 11:03:01 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Plain Credentials Plugin on behalf of admin
+Mar 21, 2017 11:03:01 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Plain Credentials Plugin
+Mar 21, 2017 11:03:01 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/plain-credentials.jpi
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:02 PM hudson.PluginManager dynamicLoad
+INFO: Plugin plain-credentials:1.4 dynamically installed
+Mar 21, 2017 11:03:02 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Plain Credentials Plugin
+Mar 21, 2017 11:03:02 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Step API on behalf of admin
+Mar 21, 2017 11:03:02 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Step API
+Mar 21, 2017 11:03:02 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/workflow-step-api.jpi
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:02 PM hudson.PluginManager dynamicLoad
+INFO: Plugin workflow-step-api:2.9 dynamically installed
+Mar 21, 2017 11:03:02 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Step API
+Mar 21, 2017 11:03:02 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Credentials Binding Plugin on behalf of admin
+Mar 21, 2017 11:03:03 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Credentials Binding Plugin
+Mar 21, 2017 11:03:03 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/credentials-binding.jpi
+Mar 21, 2017 11:03:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:04 PM hudson.PluginManager dynamicLoad
+INFO: Plugin credentials-binding:1.10 dynamically installed
+Mar 21, 2017 11:03:04 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Credentials Binding Plugin
+Mar 21, 2017 11:03:04 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Timestamper on behalf of admin
+Mar 21, 2017 11:03:04 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Timestamper
+Mar 21, 2017 11:03:04 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/timestamper.jpi
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:05 PM hudson.PluginManager dynamicLoad
+INFO: Plugin timestamper:1.8.8 dynamically installed
+Mar 21, 2017 11:03:05 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Timestamper
+Mar 21, 2017 11:03:05 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Resource Disposer Plugin on behalf of admin
+Mar 21, 2017 11:03:05 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Resource Disposer Plugin
+Mar 21, 2017 11:03:05 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/resource-disposer.jpi
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:05 PM hudson.PluginManager dynamicLoad
+INFO: Plugin resource-disposer:0.6 dynamically installed
+Mar 21, 2017 11:03:06 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Resource Disposer Plugin
+Mar 21, 2017 11:03:06 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of SCM API Plugin on behalf of admin
+Mar 21, 2017 11:03:06 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading SCM API Plugin
+Mar 21, 2017 11:03:06 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/scm-api.jpi
+Mar 21, 2017 11:03:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:07 PM hudson.PluginManager dynamicLoad
+INFO: Plugin scm-api:2.1.1 dynamically installed
+Mar 21, 2017 11:03:07 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: SCM API Plugin
+Mar 21, 2017 11:03:07 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: API on behalf of admin
+Mar 21, 2017 11:03:07 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: API
+Mar 21, 2017 11:03:08 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/workflow-api.jpi
+Mar 21, 2017 11:03:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:08 PM hudson.PluginManager dynamicLoad
+INFO: Plugin workflow-api:2.12 dynamically installed
+Mar 21, 2017 11:03:08 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: API
+Mar 21, 2017 11:03:08 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Basic Steps on behalf of admin
+Mar 21, 2017 11:03:08 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Basic Steps
+Mar 21, 2017 11:03:08 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/workflow-basic-steps.jpi
+Mar 21, 2017 11:03:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:09 PM hudson.PluginManager dynamicLoad
+INFO: Plugin workflow-basic-steps:2.4 dynamically installed
+Mar 21, 2017 11:03:09 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Basic Steps
+Mar 21, 2017 11:03:09 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Workspace Cleanup Plugin on behalf of admin
+Mar 21, 2017 11:03:09 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Workspace Cleanup Plugin
+Mar 21, 2017 11:03:10 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/ws-cleanup.jpi
+Mar 21, 2017 11:03:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:10 PM hudson.PluginManager dynamicLoad
+INFO: Plugin ws-cleanup:0.32 dynamically installed
+Mar 21, 2017 11:03:10 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Workspace Cleanup Plugin
+Mar 21, 2017 11:03:10 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Ant Plugin on behalf of admin
+Mar 21, 2017 11:03:10 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Ant Plugin
+Mar 21, 2017 11:03:10 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/ant.jpi
+Mar 21, 2017 11:03:11 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+Mar 21, 2017 11:03:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:11 PM hudson.PluginManager dynamicLoad
+INFO: Plugin ant:1.4 dynamically installed
+Mar 21, 2017 11:03:11 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Ant Plugin
+Mar 21, 2017 11:03:11 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Gradle Plugin on behalf of admin
+Mar 21, 2017 11:03:11 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Gradle Plugin
+Mar 21, 2017 11:03:11 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/gradle.jpi
+Mar 21, 2017 11:03:12 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:13 PM hudson.PluginManager dynamicLoad
+INFO: Plugin gradle:1.26 dynamically installed
+Mar 21, 2017 11:03:13 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Gradle Plugin
+Mar 21, 2017 11:03:13 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: SCM Step on behalf of admin
+Mar 21, 2017 11:03:13 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: SCM Step
+Mar 21, 2017 11:03:13 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/workflow-scm-step.jpi
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:13 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:13 PM hudson.PluginManager dynamicLoad
+INFO: Plugin workflow-scm-step:2.4 dynamically installed
+Mar 21, 2017 11:03:13 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: SCM Step
+Mar 21, 2017 11:03:13 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of SSH Credentials Plugin on behalf of admin
+Mar 21, 2017 11:03:13 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading SSH Credentials Plugin
+Mar 21, 2017 11:03:14 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/ssh-credentials.jpi
+Mar 21, 2017 11:03:14 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:14 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:14 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:14 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:14 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:14 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:14 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:14 PM hudson.PluginManager dynamicLoad
+INFO: Plugin ssh-credentials:1.13 dynamically installed
+Mar 21, 2017 11:03:14 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: SSH Credentials Plugin
+Mar 21, 2017 11:03:14 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Git client plugin on behalf of admin
+Mar 21, 2017 11:03:14 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Git client plugin
+Mar 21, 2017 11:03:17 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/git-client.jpi
+Mar 21, 2017 11:03:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:17 PM hudson.PluginManager dynamicLoad
+INFO: Plugin git-client:2.3.0 dynamically installed
+Mar 21, 2017 11:03:17 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Git client plugin
+Mar 21, 2017 11:03:17 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of JavaScript GUI Lib: jQuery bundles (jQuery and jQuery UI) plugin on behalf of admin
+Mar 21, 2017 11:03:19 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading JavaScript GUI Lib: jQuery bundles (jQuery and jQuery UI) plugin
+Mar 21, 2017 11:03:19 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/jquery-detached.jpi
+Mar 21, 2017 11:03:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:19 PM hudson.PluginManager dynamicLoad
+INFO: Plugin jquery-detached:1.2.1 dynamically installed
+Mar 21, 2017 11:03:19 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: JavaScript GUI Lib: jQuery bundles (jQuery and jQuery UI) plugin
+Mar 21, 2017 11:03:19 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Supporting APIs on behalf of admin
+Mar 21, 2017 11:03:20 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Supporting APIs
+Mar 21, 2017 11:03:20 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/workflow-support.jpi
+Mar 21, 2017 11:03:20 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:20 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:20 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:20 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:20 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:20 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:20 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:20 PM hudson.PluginManager dynamicLoad
+INFO: Plugin workflow-support:2.13 dynamically installed
+Mar 21, 2017 11:03:20 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Supporting APIs
+Mar 21, 2017 11:03:20 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of JavaScript GUI Lib: ACE Editor bundle plugin on behalf of admin
+Mar 21, 2017 11:03:21 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading JavaScript GUI Lib: ACE Editor bundle plugin
+Mar 21, 2017 11:03:25 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/ace-editor.jpi
+Mar 21, 2017 11:03:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:26 PM hudson.PluginManager dynamicLoad
+INFO: Plugin ace-editor:1.1 dynamically installed
+Mar 21, 2017 11:03:26 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: JavaScript GUI Lib: ACE Editor bundle plugin
+Mar 21, 2017 11:03:26 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Groovy on behalf of admin
+Mar 21, 2017 11:03:27 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Groovy
+Mar 21, 2017 11:03:37 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/workflow-cps.jpi
+Mar 21, 2017 11:03:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:38 PM hudson.PluginManager dynamicLoad
+INFO: Plugin workflow-cps:2.29 dynamically installed
+Mar 21, 2017 11:03:38 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Groovy
+Mar 21, 2017 11:03:38 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of GIT server Plugin on behalf of admin
+Mar 21, 2017 11:03:39 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading GIT server Plugin
+Mar 21, 2017 11:03:39 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/git-server.jpi
+Mar 21, 2017 11:03:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:39 PM hudson.PluginManager dynamicLoad
+INFO: Plugin git-server:1.7 dynamically installed
+Mar 21, 2017 11:03:39 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: GIT server Plugin
+Mar 21, 2017 11:03:39 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Shared Groovy Libraries on behalf of admin
+Mar 21, 2017 11:03:40 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Shared Groovy Libraries
+Mar 21, 2017 11:03:45 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/workflow-cps-global-lib.jpi
+Mar 21, 2017 11:03:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:48 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:48 PM hudson.PluginManager dynamicLoad
+INFO: Plugin workflow-cps-global-lib:2.7 dynamically installed
+Mar 21, 2017 11:03:48 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Shared Groovy Libraries
+Mar 21, 2017 11:03:48 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Milestone Step on behalf of admin
+Mar 21, 2017 11:03:48 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Milestone Step
+Mar 21, 2017 11:03:48 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-milestone-step.jpi
+Mar 21, 2017 11:03:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:49 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-milestone-step:1.3 dynamically installed
+Mar 21, 2017 11:03:49 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Milestone Step
+Mar 21, 2017 11:03:49 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Build Step on behalf of admin
+Mar 21, 2017 11:03:52 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Build Step
+Mar 21, 2017 11:03:52 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-build-step.jpi
+Mar 21, 2017 11:03:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:53 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-build-step:2.4 dynamically installed
+Mar 21, 2017 11:03:53 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Build Step
+Mar 21, 2017 11:03:53 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Stage Step on behalf of admin
+Mar 21, 2017 11:03:53 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Stage Step
+Mar 21, 2017 11:03:53 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-stage-step.jpi
+Mar 21, 2017 11:03:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:53 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-stage-step:2.2 dynamically installed
+Mar 21, 2017 11:03:53 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Stage Step
+Mar 21, 2017 11:03:53 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Input Step on behalf of admin
+Mar 21, 2017 11:03:54 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Input Step
+Mar 21, 2017 11:03:54 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-input-step.jpi
+Mar 21, 2017 11:03:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:54 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-input-step:2.5 dynamically installed
+Mar 21, 2017 11:03:54 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Input Step
+Mar 21, 2017 11:03:54 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Job on behalf of admin
+Mar 21, 2017 11:03:54 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Job
+Mar 21, 2017 11:03:55 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/workflow-job.jpi
+Mar 21, 2017 11:03:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:55 PM hudson.PluginManager dynamicLoad
+INFO: Plugin workflow-job:2.10 dynamically installed
+Mar 21, 2017 11:03:55 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Job
+Mar 21, 2017 11:03:55 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline Graph Analysis Plugin on behalf of admin
+Mar 21, 2017 11:03:56 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline Graph Analysis Plugin
+Mar 21, 2017 11:03:56 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-graph-analysis.jpi
+Mar 21, 2017 11:03:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:03:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:03:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:03:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:03:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:03:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:03:56 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:03:56 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-graph-analysis:1.3 dynamically installed
+Mar 21, 2017 11:03:56 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline Graph Analysis Plugin
+Mar 21, 2017 11:03:56 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: REST API Plugin on behalf of admin
+Mar 21, 2017 11:03:57 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: REST API Plugin
+Mar 21, 2017 11:04:03 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-rest-api.jpi
+Mar 21, 2017 11:04:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:03 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-rest-api:2.6 dynamically installed
+Mar 21, 2017 11:04:03 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: REST API Plugin
+Mar 21, 2017 11:04:03 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of JavaScript GUI Lib: Handlebars bundle plugin on behalf of admin
+Mar 21, 2017 11:04:04 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading JavaScript GUI Lib: Handlebars bundle plugin
+Mar 21, 2017 11:04:04 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/handlebars.jpi
+Mar 21, 2017 11:04:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:04 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:04 PM hudson.PluginManager dynamicLoad
+INFO: Plugin handlebars:1.1.1 dynamically installed
+Mar 21, 2017 11:04:04 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: JavaScript GUI Lib: Handlebars bundle plugin
+Mar 21, 2017 11:04:04 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of JavaScript GUI Lib: Moment.js bundle plugin on behalf of admin
+Mar 21, 2017 11:04:05 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading JavaScript GUI Lib: Moment.js bundle plugin
+Mar 21, 2017 11:04:05 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/momentjs.jpi
+Mar 21, 2017 11:04:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:05 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:05 PM hudson.PluginManager dynamicLoad
+INFO: Plugin momentjs:1.1.1 dynamically installed
+Mar 21, 2017 11:04:05 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: JavaScript GUI Lib: Moment.js bundle plugin
+Mar 21, 2017 11:04:05 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Stage View Plugin on behalf of admin
+Mar 21, 2017 11:04:06 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Stage View Plugin
+Mar 21, 2017 11:04:07 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-stage-view.jpi
+Mar 21, 2017 11:04:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:07 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-stage-view:2.6 dynamically installed
+Mar 21, 2017 11:04:07 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Stage View Plugin
+Mar 21, 2017 11:04:07 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Durable Task Plugin on behalf of admin
+Mar 21, 2017 11:04:07 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Durable Task Plugin
+Mar 21, 2017 11:04:08 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/durable-task.jpi
+Mar 21, 2017 11:04:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:08 PM hudson.PluginManager dynamicLoad
+INFO: Plugin durable-task:1.13 dynamically installed
+Mar 21, 2017 11:04:08 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Durable Task Plugin
+Mar 21, 2017 11:04:08 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Nodes and Processes on behalf of admin
+Mar 21, 2017 11:04:08 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Nodes and Processes
+Mar 21, 2017 11:04:08 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/workflow-durable-task-step.jpi
+Mar 21, 2017 11:04:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:09 PM hudson.PluginManager dynamicLoad
+INFO: Plugin workflow-durable-task-step:2.10 dynamically installed
+Mar 21, 2017 11:04:09 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Nodes and Processes
+Mar 21, 2017 11:04:09 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Model API on behalf of admin
+Mar 21, 2017 11:04:10 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Model API
+Mar 21, 2017 11:04:36 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-model-api.jpi
+Mar 21, 2017 11:04:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:36 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-model-api:1.1.1 dynamically installed
+Mar 21, 2017 11:04:36 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Model API
+Mar 21, 2017 11:04:36 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Stage Tags Metadata on behalf of admin
+Mar 21, 2017 11:04:37 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Stage Tags Metadata
+Mar 21, 2017 11:04:37 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-stage-tags-metadata.jpi
+Mar 21, 2017 11:04:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:37 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-stage-tags-metadata:1.1.1 dynamically installed
+Mar 21, 2017 11:04:37 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Stage Tags Metadata
+Mar 21, 2017 11:04:37 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Authentication Tokens API Plugin on behalf of admin
+Mar 21, 2017 11:04:38 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Authentication Tokens API Plugin
+Mar 21, 2017 11:04:38 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/authentication-tokens.jpi
+Mar 21, 2017 11:04:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:38 PM hudson.PluginManager dynamicLoad
+INFO: Plugin authentication-tokens:1.3 dynamically installed
+Mar 21, 2017 11:04:38 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Authentication Tokens API Plugin
+Mar 21, 2017 11:04:38 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Docker Commons Plugin on behalf of admin
+Mar 21, 2017 11:04:39 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Docker Commons Plugin
+Mar 21, 2017 11:04:39 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/docker-commons.jpi
+Mar 21, 2017 11:04:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:39 PM hudson.PluginManager dynamicLoad
+INFO: Plugin docker-commons:1.6 dynamically installed
+Mar 21, 2017 11:04:39 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Docker Commons Plugin
+Mar 21, 2017 11:04:39 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Docker Pipeline on behalf of admin
+Mar 21, 2017 11:04:39 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Docker Pipeline
+Mar 21, 2017 11:04:41 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/docker-workflow.jpi
+Mar 21, 2017 11:04:41 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:41 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:41 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:41 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:41 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:41 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:41 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:41 PM hudson.PluginManager dynamicLoad
+INFO: Plugin docker-workflow:1.10 dynamically installed
+Mar 21, 2017 11:04:41 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Docker Pipeline
+Mar 21, 2017 11:04:41 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Declarative Extension Points API on behalf of admin
+Mar 21, 2017 11:04:42 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Declarative Extension Points API
+Mar 21, 2017 11:04:42 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-model-extensions.jpi
+Mar 21, 2017 11:04:42 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:42 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:42 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:42 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:42 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:42 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:42 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:42 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-model-extensions:1.1.1 dynamically installed
+Mar 21, 2017 11:04:42 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Declarative Extension Points API
+Mar 21, 2017 11:04:42 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Branch API Plugin on behalf of admin
+Mar 21, 2017 11:04:42 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Branch API Plugin
+Mar 21, 2017 11:04:43 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/branch-api.jpi
+Mar 21, 2017 11:04:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:44 PM hudson.PluginManager dynamicLoad
+INFO: Plugin branch-api:2.0.8 dynamically installed
+Mar 21, 2017 11:04:44 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Branch API Plugin
+Mar 21, 2017 11:04:44 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Multibranch on behalf of admin
+Mar 21, 2017 11:04:44 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Multibranch
+Mar 21, 2017 11:04:45 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/workflow-multibranch.jpi
+Mar 21, 2017 11:04:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:45 PM hudson.PluginManager dynamicLoad
+INFO: Plugin workflow-multibranch:2.14 dynamically installed
+Mar 21, 2017 11:04:45 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Multibranch
+Mar 21, 2017 11:04:45 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Model Definition on behalf of admin
+Mar 21, 2017 11:04:46 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: Model Definition
+Mar 21, 2017 11:04:52 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-model-definition.jpi
+Mar 21, 2017 11:04:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:53 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-model-definition:1.1.1 dynamically installed
+Mar 21, 2017 11:04:53 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Model Definition
+Mar 21, 2017 11:04:53 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline on behalf of admin
+Mar 21, 2017 11:04:54 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline
+Mar 21, 2017 11:04:54 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/workflow-aggregator.jpi
+Mar 21, 2017 11:04:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:04:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:04:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:04:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:04:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:04:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:04:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:04:54 PM hudson.PluginManager dynamicLoad
+INFO: Plugin workflow-aggregator:2.5 dynamically installed
+Mar 21, 2017 11:04:54 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline
+Mar 21, 2017 11:04:54 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of GitHub API Plugin on behalf of admin
+Mar 21, 2017 11:04:54 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading GitHub API Plugin
+Mar 21, 2017 11:05:07 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/github-api.jpi
+Mar 21, 2017 11:05:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:05:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:05:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:05:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:05:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:05:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:05:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:05:07 PM hudson.PluginManager dynamicLoad
+INFO: Plugin github-api:1.85 dynamically installed
+Mar 21, 2017 11:05:07 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: GitHub API Plugin
+Mar 21, 2017 11:05:07 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Git plugin on behalf of admin
+Mar 21, 2017 11:05:08 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Git plugin
+Mar 21, 2017 11:05:17 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/git.jpi
+Mar 21, 2017 11:05:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:05:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:05:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:05:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:05:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:05:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:05:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:05:19 PM hudson.PluginManager dynamicLoad
+INFO: Plugin git:3.1.0 dynamically installed
+Mar 21, 2017 11:05:19 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Git plugin
+Mar 21, 2017 11:05:19 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of GitHub plugin on behalf of admin
+Mar 21, 2017 11:05:20 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading GitHub plugin
+Mar 21, 2017 11:05:34 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/github.jpi
+Mar 21, 2017 11:05:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:05:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:05:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:05:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:05:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:05:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:05:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:05:35 PM hudson.PluginManager dynamicLoad
+INFO: Plugin github:1.26.1 dynamically installed
+Mar 21, 2017 11:05:35 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: GitHub plugin
+Mar 21, 2017 11:05:35 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of GitHub Branch Source Plugin on behalf of admin
+Mar 21, 2017 11:05:36 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading GitHub Branch Source Plugin
+Mar 21, 2017 11:05:36 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/github-branch-source.jpi
+Mar 21, 2017 11:05:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:05:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:05:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:05:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:05:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:05:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:05:36 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:05:36 PM hudson.PluginManager dynamicLoad
+INFO: Plugin github-branch-source:2.0.4 dynamically installed
+Mar 21, 2017 11:05:36 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: GitHub Branch Source Plugin
+Mar 21, 2017 11:05:36 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: GitHub Groovy Libraries on behalf of admin
+Mar 21, 2017 11:05:37 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Pipeline: GitHub Groovy Libraries
+Mar 21, 2017 11:05:37 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/pipeline-github-lib.jpi
+Mar 21, 2017 11:05:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:05:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:05:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:05:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:05:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:05:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:05:37 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:05:37 PM hudson.PluginManager dynamicLoad
+INFO: Plugin pipeline-github-lib:1.0 dynamically installed
+Mar 21, 2017 11:05:37 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: GitHub Groovy Libraries
+Mar 21, 2017 11:05:37 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of GitHub Organization Folder Plugin on behalf of admin
+Mar 21, 2017 11:05:38 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading GitHub Organization Folder Plugin
+Mar 21, 2017 11:05:38 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/github-organization-folder.jpi
+Mar 21, 2017 11:05:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:05:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:05:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:05:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:05:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:05:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:05:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:05:38 PM hudson.PluginManager dynamicLoad
+INFO: Plugin github-organization-folder:1.6 dynamically installed
+Mar 21, 2017 11:05:38 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: GitHub Organization Folder Plugin
+Mar 21, 2017 11:05:38 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Pipeline: Stage View Plugin on behalf of admin
+Mar 21, 2017 11:05:38 PM hudson.model.UpdateCenter$InstallationJob _run
+INFO: Skipping duplicate install of: Pipeline: Stage View Plugin@2.6
+Mar 21, 2017 11:05:38 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Pipeline: Stage View Plugin
+Mar 21, 2017 11:05:38 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Git plugin on behalf of admin
+Mar 21, 2017 11:05:38 PM hudson.model.UpdateCenter$InstallationJob _run
+INFO: Skipping duplicate install of: Git plugin@3.1.0
+Mar 21, 2017 11:05:38 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Git plugin
+Mar 21, 2017 11:05:38 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of MapDB API Plugin on behalf of admin
+Mar 21, 2017 11:05:38 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading MapDB API Plugin
+Mar 21, 2017 11:05:39 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/mapdb-api.jpi
+Mar 21, 2017 11:05:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:05:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:05:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:05:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:05:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:05:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:05:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:05:39 PM hudson.PluginManager dynamicLoad
+INFO: Plugin mapdb-api:1.0.9.0 dynamically installed
+Mar 21, 2017 11:05:39 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: MapDB API Plugin
+Mar 21, 2017 11:05:39 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Subversion Plug-in on behalf of admin
+Mar 21, 2017 11:05:40 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Subversion Plug-in
+Mar 21, 2017 11:05:44 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/subversion.jpi
+Mar 21, 2017 11:05:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:05:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:05:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:05:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:05:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:05:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:05:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:05:46 PM hudson.PluginManager dynamicLoad
+INFO: Plugin subversion:2.7.2 dynamically installed
+Mar 21, 2017 11:05:46 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Subversion Plug-in
+Mar 21, 2017 11:05:46 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of SSH Slaves plugin on behalf of admin
+Mar 21, 2017 11:05:46 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading SSH Slaves plugin
+Mar 21, 2017 11:05:46 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/ssh-slaves.jpi
+Mar 21, 2017 11:05:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:05:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:05:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:05:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:05:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:05:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:05:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:05:47 PM hudson.PluginManager dynamicLoad
+INFO: Plugin ssh-slaves:1.15 dynamically installed
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: SSH Slaves plugin
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Matrix Authorization Strategy Plugin on behalf of admin
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$InstallationJob _run
+INFO: Skipping duplicate install of: Matrix Authorization Strategy Plugin@1.4
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Matrix Authorization Strategy Plugin
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of PAM Authentication plugin on behalf of admin
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$InstallationJob _run
+INFO: Skipping duplicate install of: PAM Authentication plugin@1.3
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: PAM Authentication plugin
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of LDAP Plugin on behalf of admin
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$InstallationJob _run
+INFO: Skipping duplicate install of: LDAP Plugin@1.14
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: LDAP Plugin
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Email Extension Plugin on behalf of admin
+Mar 21, 2017 11:05:47 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Email Extension Plugin
+Mar 21, 2017 11:05:48 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /root/.jenkins/plugins/email-ext.jpi
+Mar 21, 2017 11:05:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 21, 2017 11:05:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 21, 2017 11:05:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 21, 2017 11:05:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 21, 2017 11:05:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 21, 2017 11:05:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 21, 2017 11:05:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 21, 2017 11:05:49 PM hudson.PluginManager dynamicLoad
+INFO: Plugin email-ext:2.57.1 dynamically installed
+Mar 21, 2017 11:05:49 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Email Extension Plugin
+Mar 21, 2017 11:05:49 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Mailer Plugin on behalf of admin
+Mar 21, 2017 11:05:49 PM hudson.model.UpdateCenter$InstallationJob _run
+INFO: Skipping duplicate install of: Mailer Plugin@1.20
+Mar 21, 2017 11:05:49 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Mailer Plugin
+Mar 21, 2017 11:08:23 PM hudson.model.Run execute
+INFO: test #1 main build action completed: SUCCESS
+Mar 21, 2017 11:33:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /root/apache-tomcat-7.0.76/webapps/.git
+Mar 21, 2017 11:33:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /root/apache-tomcat-7.0.76/webapps/.git has finished in 210 ms
